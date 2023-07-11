@@ -1,0 +1,72 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+
+/* Positioning */
+
+.con {
+  min-height: 100%;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.string {
+  /* Text Background Effect */
+  background: url("/Front1/img1.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* background: url("/Front/water-drops-6373296_1280.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; */
+
+  /* Other */
+
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  animation: slice 3s, dynamic 7s infinite alternate linear;
+  white-space: nowrap;
+}
+
+* {
+  user-select: none;
+}
+
+@media screen and (max-width: 480px) {
+  .string {
+    font-size: 70px;
+  }
+}
+
+/* Slice Animation */
+
+@keyframes slice {
+  0% {
+    line-height: 0%;
+  }
+
+  100% {
+    line-height: 100%;
+  }
+}
+
+/* Dynamic Background Animation */
+
+@keyframes dynamic {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
+}
