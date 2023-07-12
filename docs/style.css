@@ -19,7 +19,8 @@
 
 .string {
   /* Text Background Effect */
-  background: url("/docs/img1.jpg");
+  /*background: url("/docs/img1.jpg");*/
+  background: url("./img1.jpg");
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
