@@ -19,10 +19,10 @@
 
 .string {
   /* Text Background Effect */
-  /*background: url("/docs/img1.jpg");
+  background: url("/docs/img1.jpg");
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;*/
+  color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 100px;
   font-weight: 900;
