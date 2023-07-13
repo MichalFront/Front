@@ -1,6 +1,8 @@
-# Front_Neon_string
+# Slice string
 
-Hello ! Check out my website by clicking the link below!
+Hello !!! 
+Check out my website by clicking the link below! This project is responsible for the slice effect for the string.
 
-[Moja strona](https://michalfront.github.io/Front/)
+[My page](https://michalfront.github.io/Front/)
 
+![Hello GITHUB](hellogithub.png)
